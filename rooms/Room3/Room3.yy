@@ -13,8 +13,8 @@
   ],
   "name":"Room3",
   "parent":{
-    "name":"GTT",
-    "path":"GTT.yyp",
+    "name":"Rooms",
+    "path":"folders/Rooms.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
