@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Ovuilniswagen1",
+  "%Name":"Owegrecht",
   "eventList":[],
   "managed":true,
-  "name":"Ovuilniswagen1",
+  "name":"Owegrecht",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Svuilniswagen1",
-    "path":"sprites/Svuilniswagen1/Svuilniswagen1.yy",
+    "name":"Swegrecht",
+    "path":"sprites/Swegrecht/Swegrecht.yy",
   },
   "spriteMaskId":null,
   "visible":true,

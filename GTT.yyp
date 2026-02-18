@@ -10,9 +10,9 @@
   },
   "defaultScriptType":0,
   "Folders":[
-    {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[],
@@ -25,17 +25,19 @@
   "resources":[
     {"id":{"name":"Ovuilniswagen1","path":"objects/Ovuilniswagen1/Ovuilniswagen1.yy",},},
     {"id":{"name":"Ovuilniswagen2","path":"objects/Ovuilniswagen2/Ovuilniswagen2.yy",},},
+    {"id":{"name":"Owegrecht","path":"objects/Owegrecht/Owegrecht.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
-    {"id":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
-    {"id":{"name":"Svuilniswagen","path":"sprites/Svuilniswagen/Svuilniswagen.yy",},},
+    {"id":{"name":"Sachtergrond","path":"sprites/Sachtergrond/Sachtergrond.yy",},},
+    {"id":{"name":"Svuilniswagen1","path":"sprites/Svuilniswagen1/Svuilniswagen1.yy",},},
+    {"id":{"name":"Svuilniswagen2","path":"sprites/Svuilniswagen2/Svuilniswagen2.yy",},},
+    {"id":{"name":"Swegrecht","path":"sprites/Swegrecht/Swegrecht.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
-    {"roomId":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
