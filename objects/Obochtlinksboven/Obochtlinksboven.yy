@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Obocht",
+  "%Name":"Obochtlinksboven",
   "eventList":[],
   "managed":true,
-  "name":"Obocht",
+  "name":"Obochtlinksboven",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sbocht",
-    "path":"sprites/Sbocht/Sbocht.yy",
+    "name":"Sbochtnaarlinksboven",
+    "path":"sprites/Sbochtnaarlinksboven/Sbochtnaarlinksboven.yy",
   },
   "spriteMaskId":null,
   "visible":true,
