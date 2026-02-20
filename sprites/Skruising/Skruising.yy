@@ -1,10 +1,10 @@
 {
   "$GMSprite":"v2",
-  "%Name":"Sbochtnaarlinksbenenden",
+  "%Name":"Skruising",
   "bboxMode":0,
-  "bbox_bottom":49,
+  "bbox_bottom":63,
   "bbox_left":0,
-  "bbox_right":46,
+  "bbox_right":63,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,16 +12,16 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"8a20e544-f3c2-4b69-87cc-b53ef5de41ef","name":"8a20e544-f3c2-4b69-87cc-b53ef5de41ef","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"29175b47-0f53-4752-a514-2e3b70e94e61","name":"29175b47-0f53-4752-a514-2e3b70e94e61","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":50,
+  "height":64,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"016dafd5-e0b4-4d4b-8931-4199ca0ee432","blendMode":0,"displayName":"default","isLocked":false,"name":"016dafd5-e0b4-4d4b-8931-4199ca0ee432","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"7b687c43-44c9-46bf-a83f-079f32e71bb5","blendMode":0,"displayName":"default","isLocked":false,"name":"7b687c43-44c9-46bf-a83f-079f32e71bb5","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"Sbochtnaarlinksbenenden",
+  "name":"Skruising",
   "nineSlice":null,
   "origin":4,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"Sbochtnaarlinksbenenden",
+    "%Name":"Skruising",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"Sbochtnaarlinksbenenden",
+    "name":"Skruising",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,14 +69,14 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8a20e544-f3c2-4b69-87cc-b53ef5de41ef","path":"sprites/Sbochtnaarlinksbenenden/Sbochtnaarlinksbenenden.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"e9a4236f-76ba-40ca-8a39-a118208f590f","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"29175b47-0f53-4752-a514-2e3b70e94e61","path":"sprites/Skruising/Skruising.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"d9bc90d3-a67c-49d0-91a1-216c75e98c1b","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":27,
-    "yorigin":25,
+    "xorigin":32,
+    "yorigin":32,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":55,
+  "width":64,
 }
