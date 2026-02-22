@@ -23,6 +23,7 @@
   },
   "name":"GTT",
   "resources":[
+    {"id":{"name":"Object10","path":"objects/Object10/Object10.yy",},},
     {"id":{"name":"Obochtlinksbeneden","path":"objects/Obochtlinksbeneden/Obochtlinksbeneden.yy",},},
     {"id":{"name":"Obochtlinksboven","path":"objects/Obochtlinksboven/Obochtlinksboven.yy",},},
     {"id":{"name":"Obochtrechtsbeneden","path":"objects/Obochtrechtsbeneden/Obochtrechtsbeneden.yy",},},
@@ -33,7 +34,7 @@
     {"id":{"name":"Owegrecht","path":"objects/Owegrecht/Owegrecht.yy",},},
     {"id":{"name":"Owegrechtboven","path":"objects/Owegrechtboven/Owegrechtboven.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
+    {"id":{"name":"Safval_zak","path":"sprites/Safval_zak/Safval_zak.yy",},},
     {"id":{"name":"Sbochtnaarlinksbenenden","path":"sprites/Sbochtnaarlinksbenenden/Sbochtnaarlinksbenenden.yy",},},
     {"id":{"name":"Sbochtnaarlinksboven","path":"sprites/Sbochtnaarlinksboven/Sbochtnaarlinksboven.yy",},},
     {"id":{"name":"Sbochtnaarrechtsbenenden","path":"sprites/Sbochtnaarrechtsbenenden/Sbochtnaarrechtsbenenden.yy",},},
@@ -48,7 +49,6 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
