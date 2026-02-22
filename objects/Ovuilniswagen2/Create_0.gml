@@ -1,4 +1,4 @@
-forwardspd = 4;
+forwardspd = 3;
 backwardspd = -2;
-turnradius = 0.6;
+turnradius = 1;
 acc = 0.02;
