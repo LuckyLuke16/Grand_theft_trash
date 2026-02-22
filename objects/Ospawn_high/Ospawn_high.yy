@@ -1,16 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"Object10",
+  "%Name":"Ospawn_high",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Object10",
+  "name":"Ospawn_high",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Spawn_objects",
+    "path":"folders/Objects/Spawn_objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"Safval_zak",
-    "path":"sprites/Safval_zak/Safval_zak.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

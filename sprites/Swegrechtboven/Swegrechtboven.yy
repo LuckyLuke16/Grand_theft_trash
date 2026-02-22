@@ -44,8 +44,8 @@
   },
   "origin":4,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Sprites.yy",
+    "name":"Road",
+    "path":"folders/Sprites/Road.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
