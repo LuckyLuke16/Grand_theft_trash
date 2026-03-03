@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"Recycler",
-    "path":"sprites/Recycler/Recycler.yy",
+    "name":"SRecycler",
+    "path":"sprites/SRecycler/SRecycler.yy",
   },
   "spriteMaskId":null,
   "visible":true,
