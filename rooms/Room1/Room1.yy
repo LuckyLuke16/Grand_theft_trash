@@ -34,7 +34,7 @@
     {"name":"inst_4633E4C","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_7E5CD368","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_1FAE6DA3","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_1B5E439B","path":"rooms/Room1/Room1.yy",},
+
   ],
   "isDnd":false,
   "layers":[
