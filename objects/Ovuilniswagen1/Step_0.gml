@@ -39,7 +39,7 @@ if speed < backwardspd speed = backwardspd;
 //image angle
 image_angle = direction
 
-//collision with recycler
+
 
 
 
