@@ -31,6 +31,8 @@
     {"id":{"name":"Obochtlinksboven","path":"objects/Obochtlinksboven/Obochtlinksboven.yy",},},
     {"id":{"name":"Obochtrechtsbeneden","path":"objects/Obochtrechtsbeneden/Obochtrechtsbeneden.yy",},},
     {"id":{"name":"Obochtrechtsboven","path":"objects/Obochtrechtsboven/Obochtrechtsboven.yy",},},
+    {"id":{"name":"Ocamera1","path":"objects/Ocamera1/Ocamera1.yy",},},
+    {"id":{"name":"Ocamera2","path":"objects/Ocamera2/Ocamera2.yy",},},
     {"id":{"name":"Okruising","path":"objects/Okruising/Okruising.yy",},},
     {"id":{"name":"Orecycler","path":"objects/Orecycler/Orecycler.yy",},},
     {"id":{"name":"Ospawn_high","path":"objects/Ospawn_high/Ospawn_high.yy",},},
