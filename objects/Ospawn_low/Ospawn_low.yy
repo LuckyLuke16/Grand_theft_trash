@@ -1,13 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"Obochtlinksbeneden",
-  "eventList":[],
+  "%Name":"Ospawn_low",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"Obochtlinksbeneden",
+  "name":"Ospawn_low",
   "overriddenProperties":[],
   "parent":{
-    "name":"Road",
-    "path":"folders/Objects/Road.yy",
+    "name":"Spawn_objects",
+    "path":"folders/Objects/Spawn_objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -27,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"Sbochtnaarlinksbenenden",
-    "path":"sprites/Sbochtnaarlinksbenenden/Sbochtnaarlinksbenenden.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

@@ -6,8 +6,8 @@
   "name":"Owegrechtboven",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Road",
+    "path":"folders/Objects/Road.yy",
   },
   "parentObjectId":null,
   "persistent":false,
