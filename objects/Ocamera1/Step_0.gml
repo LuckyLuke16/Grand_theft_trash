@@ -6,7 +6,7 @@ var current_y = camera_get_view_y(cam);
 var target_angle = -Ovuilniswagen1.direction + 90;
 
 // Offset in rijrichting (camera kijkt vooruit)
-var offset_dist = 150;
+var offset_dist = 0;
 var offset_dir = Ovuilniswagen1.direction;
 
 var offset_x = lengthdir_x(offset_dist, offset_dir);
