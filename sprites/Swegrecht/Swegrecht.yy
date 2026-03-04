@@ -2,9 +2,9 @@
   "$GMSprite":"v2",
   "%Name":"Swegrecht",
   "bboxMode":0,
-  "bbox_bottom":49,
+  "bbox_bottom":61,
   "bbox_left":0,
-  "bbox_right":103,
+  "bbox_right":33,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"0950f211-1194-4c48-9a62-109bfa7a662a","name":"0950f211-1194-4c48-9a62-109bfa7a662a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e46aa618-96c1-46c6-b750-bb722b16b260","name":"e46aa618-96c1-46c6-b750-bb722b16b260","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":50,
+  "height":62,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"26966e06-0cad-4c98-a1cd-712516fd5c1d","blendMode":0,"displayName":"default","isLocked":false,"name":"26966e06-0cad-4c98-a1cd-712516fd5c1d","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"df2fb222-d562-45f5-b9f8-5c678b215cb4","blendMode":0,"displayName":"default","isLocked":false,"name":"df2fb222-d562-45f5-b9f8-5c678b215cb4","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"Swegrecht",
   "nineSlice":{
@@ -88,14 +88,14 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0950f211-1194-4c48-9a62-109bfa7a662a","path":"sprites/Swegrecht/Swegrecht.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"f88072fa-012f-4d39-9c8e-f508aeed234a","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e46aa618-96c1-46c6-b750-bb722b16b260","path":"sprites/Swegrecht/Swegrecht.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"82b76385-68f0-4ea2-8acc-0607b2334fef","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":52,
-    "yorigin":25,
+    "xorigin":17,
+    "yorigin":31,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
@@ -105,5 +105,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":104,
+  "width":35,
 }

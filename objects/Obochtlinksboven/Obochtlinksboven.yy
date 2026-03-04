@@ -28,9 +28,12 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sbochtnaarlinksboven",
-    "path":"sprites/Sbochtnaarlinksboven/Sbochtnaarlinksboven.yy",
+    "name":"Sbochtnaarlinksbenenden",
+    "path":"sprites/Sbochtnaarlinksbenenden/Sbochtnaarlinksbenenden.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"Sbochtnaarlinksbenenden",
+    "path":"sprites/Sbochtnaarlinksbenenden/Sbochtnaarlinksbenenden.yy",
+  },
   "visible":true,
 }

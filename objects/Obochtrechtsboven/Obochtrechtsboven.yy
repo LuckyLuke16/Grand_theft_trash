@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sbochtnaarrechtsboven",
-    "path":"sprites/Sbochtnaarrechtsboven/Sbochtnaarrechtsboven.yy",
+    "name":"Sbochtnaarlinksboven",
+    "path":"sprites/Sbochtnaarlinksboven/Sbochtnaarlinksboven.yy",
   },
   "spriteMaskId":null,
   "visible":true,

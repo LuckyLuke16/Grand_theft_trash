@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sbochtnaarlinksbenenden",
-    "path":"sprites/Sbochtnaarlinksbenenden/Sbochtnaarlinksbenenden.yy",
+    "name":"Sbochtnaarlinksboven_1",
+    "path":"sprites/Sbochtnaarlinksboven_1/Sbochtnaarlinksboven_1.yy",
   },
   "spriteMaskId":null,
   "visible":true,
