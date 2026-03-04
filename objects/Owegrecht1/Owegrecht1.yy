@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"test",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"Owegrecht1",
+  "eventList":[],
   "managed":true,
-  "name":"test",
+  "name":"Owegrecht1",
   "overriddenProperties":[],
   "parent":{
     "name":"Road",
@@ -29,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Swegrecht_1",
+    "path":"sprites/Swegrecht_1/Swegrecht_1.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
