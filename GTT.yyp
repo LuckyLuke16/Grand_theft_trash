@@ -26,7 +26,9 @@
   },
   "name":"GTT",
   "resources":[
-    {"id":{"name":"afval","path":"objects/afval/afval.yy",},},
+    {"id":{"name":"afval_high","path":"objects/afval_high/afval_high.yy",},},
+    {"id":{"name":"afval_low","path":"objects/afval_low/afval_low.yy",},},
+    {"id":{"name":"afval_medium","path":"objects/afval_medium/afval_medium.yy",},},
     {"id":{"name":"Obochtlinksbeneden","path":"objects/Obochtlinksbeneden/Obochtlinksbeneden.yy",},},
     {"id":{"name":"Obochtlinksboven","path":"objects/Obochtlinksboven/Obochtlinksboven.yy",},},
     {"id":{"name":"Obochtrechtsbeneden","path":"objects/Obochtrechtsbeneden/Obochtrechtsbeneden.yy",},},
