@@ -37,6 +37,7 @@
     {"id":{"name":"Ocamera2","path":"objects/Ocamera2/Ocamera2.yy",},},
     {"id":{"name":"Okruising","path":"objects/Okruising/Okruising.yy",},},
     {"id":{"name":"Orecycler","path":"objects/Orecycler/Orecycler.yy",},},
+    {"id":{"name":"Oscore","path":"objects/Oscore/Oscore.yy",},},
     {"id":{"name":"Ospawn_high","path":"objects/Ospawn_high/Ospawn_high.yy",},},
     {"id":{"name":"Ospawn_low","path":"objects/Ospawn_low/Ospawn_low.yy",},},
     {"id":{"name":"Ospawn_medium","path":"objects/Ospawn_medium/Ospawn_medium.yy",},},
