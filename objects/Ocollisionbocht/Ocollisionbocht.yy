@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Ocollision",
+  "%Name":"Ocollisionbocht",
   "eventList":[],
   "managed":true,
-  "name":"Ocollision",
+  "name":"Ocollisionbocht",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Stempcollision",
-    "path":"sprites/Stempcollision/Stempcollision.yy",
+    "name":"SBochtcollision",
+    "path":"sprites/SBochtcollision/SBochtcollision.yy",
   },
   "spriteMaskId":null,
   "visible":true,
