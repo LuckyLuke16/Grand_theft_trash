@@ -1,0 +1,1 @@
+collisionspeed = 0;
