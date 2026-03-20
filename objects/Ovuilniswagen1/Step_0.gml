@@ -1,59 +1,56 @@
-// --- MOVEMENT ---
-right_key = keyboard_check(ord("D"));
-left_key = keyboard_check(ord("A"));
-up_key = keyboard_check(ord("W"));
-down_key = keyboard_check(ord("S"));
+// --- 1. INPUT ---
+var up    = keyboard_check(ord("W"));
+var down  = keyboard_check(ord("S"));
+var left  = keyboard_check(ord("A"));
+var right = keyboard_check(ord("D"));
+// BELANGRIJK: Hier moet keyboard_check_pressed bij!
+var actie_toets = keyboard_check_pressed(ord("E")); 
 
-if (up_key)    speed += acc;    
-if (down_key)  speed -= acc;
+// --- 2. BEWEGING ---
+if (up)    speed += acc;
+if (down)  speed -= acc;
 
-// Alleen sturen als je rijdt (ziet er realistischer uit)
-if (left_key)  direction += speed * turnradius;
-if (right_key) direction -= speed * turnradius;
+// Sturen (alleen als de wagen rijdt)
+if (left)  direction += speed * turnradius;
+if (right) direction -= speed * turnradius;
 
-// Remmen
-if !up_key and !down_key {
-    if (friction < 1) friction += 0.05; // Iets sneller remmen dan 0.001
-} else {
-    friction = 0;
-}
-
-// Speed limiter
+// Wrijving en Limieten
+if (!up && !down) friction = 0.05; else friction = 0;
 speed = clamp(speed, backwardspd, forwardspd);
 image_angle = direction;
 
-// --- AFVAL OPPAKKEN ---
+// --- 3. AFVAL PAKKEN ---
 var afval = instance_nearest(x, y, afval_high);
 
-// GEBRUIK 'afval.x' in plaats van 'afval_high.x'
+// We checken of afval bestaat en of we dichtbij zijn
 if (afval != noone && point_distance(x, y, afval.x, afval.y) < 60) {
-    if (keyboard_check_pressed(ord("E"))) {
-        if (zakken_in_wagen < max_capaciteit) {
-            instance_destroy(afval);
-            zakken_in_wagen += 1;
-            show_debug_message("Zak opgepakt! Totaal: " + string(zakken_in_wagen));
-        } else {
-            show_debug_message("Wagen is vol!");
-        }
+    if (actie_toets && zakken_in_wagen < max_capaciteit) {
+        instance_destroy(afval);
+        zakken_in_wagen += 1;
+        show_debug_message("Wagen 2 pakte afval! Totaal: " + string(zakken_in_wagen));
     }
 }
 
-// --- INLEVEREN BIJ RECYCLER ---
+// --- 4. INLEVEREN ---
+// 1. Zoek de dichtstbijzijnde recycler
 var recycler = instance_nearest(x, y, Orecycler);
 
-// GEBRUIK 'recycler.x' in plaats van 'Orecycler.x'
-if (recycler != noone && point_distance(x, y, recycler.x, recycler.y) < 80) {
-    if (keyboard_check_pressed(ord("E")) && zakken_in_wagen > 0) {
+// 2. Check of hij bestaat en of je dichtbij genoeg bent
+if (recycler != noone && point_distance(x, y, recycler.x, recycler.y) < 100) {
+    
+    // 3. Gebruik de juiste actie-toets (E voor wagen 2, Shift voor wagen 1)
+    // Zorg dat deze variabelen bovenin je Step Event zijn gedefinieerd!
+    if (actie_toets && zakken_in_wagen > 0) {
         
-        var verdiende_punten = zakken_in_wagen * 10;
-        global.punten += verdiende_punten;
-        zakken_in_wagen = 0; 
+        // 4. Punten berekenen
+        var extra_punten = zakken_in_wagen * 10;
         
-        show_debug_message("Ingeleverd! Totaal punten: " + string(global.punten));
+        // 5. Toevoegen aan de EIGEN score van deze specifieke wagen
+        punten_totaal += extra_punten;
+        
+        // 6. Wagen weer leegmaken
+        zakken_in_wagen = 0;
+        
+        show_debug_message("Succesvol ingeleverd! Punten erbij: " + string(extra_punten));
     }
 }
-
-
-
-
-

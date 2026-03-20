@@ -1,1 +1,0 @@
-global.punten = 0;
