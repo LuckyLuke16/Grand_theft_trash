@@ -38,6 +38,7 @@
     {"id":{"name":"Ocamera2","path":"objects/Ocamera2/Ocamera2.yy",},},
     {"id":{"name":"Ocollision","path":"objects/Ocollision/Ocollision.yy",},},
     {"id":{"name":"Ocollisionbocht","path":"objects/Ocollisionbocht/Ocollisionbocht.yy",},},
+    {"id":{"name":"oGamem","path":"objects/oGamem/oGamem.yy",},},
     {"id":{"name":"OIndustiriterein","path":"objects/OIndustiriterein/OIndustiriterein.yy",},},
     {"id":{"name":"Okruising","path":"objects/Okruising/Okruising.yy",},},
     {"id":{"name":"Orecycler","path":"objects/Orecycler/Orecycler.yy",},},
