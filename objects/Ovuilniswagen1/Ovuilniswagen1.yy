@@ -15,8 +15,8 @@
   "name":"Ovuilniswagen1",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"useable objects",
+    "path":"folders/Objects/useable objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
