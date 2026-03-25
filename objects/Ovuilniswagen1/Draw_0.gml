@@ -1,6 +1,6 @@
 // 1. Teken eerst de vrachtwagen zelf
 draw_self();
-
+draw_set_font(Font_game);
 // 2. Alleen het balkje tekenen als we daadwerkelijk zakken hebben
 if (zakken_in_wagen > 0) {
     var balk_breedte = 40;  // Hoe breed het balkje is in pixels

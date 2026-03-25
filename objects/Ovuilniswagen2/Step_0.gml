@@ -32,7 +32,7 @@ if (recycler != noone && point_distance(x, y, recycler.x, recycler.y) < 100) {
     
     // 3. Gebruik de juiste actie-toets (E voor wagen 2, Shift voor wagen 1)
     // Zorg dat deze variabelen bovenin je Step Event zijn gedefinieerd!
-    if (actie_toets && zakken_in_wagen > 0) {
+    if (vk_shift && zakken_in_wagen > 0) {
         
         // 4. Punten berekenen
         var extra_punten = zakken_in_wagen * 10;
