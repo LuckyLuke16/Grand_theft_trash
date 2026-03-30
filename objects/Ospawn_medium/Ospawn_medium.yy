@@ -9,8 +9,8 @@
   "name":"Ospawn_medium",
   "overriddenProperties":[],
   "parent":{
-    "name":"Spawn_objects",
-    "path":"folders/Objects/Spawn_objects.yy",
+    "name":"spawners",
+    "path":"folders/Objects/Spawn_objects/spawners.yy",
   },
   "parentObjectId":null,
   "persistent":false,

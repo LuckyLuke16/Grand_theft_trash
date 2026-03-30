@@ -1,16 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"Ospawn_high",
+  "%Name":"Object32",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Ospawn_high",
+  "name":"Object32",
   "overriddenProperties":[],
   "parent":{
-    "name":"spawners",
-    "path":"folders/Objects/Spawn_objects/spawners.yy",
+    "name":"Spawn_objects",
+    "path":"folders/Objects/Spawn_objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,

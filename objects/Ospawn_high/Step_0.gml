@@ -1,6 +1,7 @@
 if(!instance_exists(spawned_instance))
 
 {
+	spawned_instance = noone;
 	timer += 1;
 	
 	if (timer >= respawn_time)
