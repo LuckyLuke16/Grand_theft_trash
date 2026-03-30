@@ -1,5 +1,6 @@
 // 1. Teken eerst de vrachtwagen zelf
 draw_self();
+draw_set_font(Font_game);
 
 // 2. Alleen het balkje tekenen als we daadwerkelijk zakken hebben
 if (zakken_in_wagen > 0) {
@@ -32,4 +33,8 @@ if (zakken_in_wagen > 0) {
     
     draw_rectangle(x1, y1, x1 + vul_breedte, y2, false);
 }	
+
+
+
+
 
