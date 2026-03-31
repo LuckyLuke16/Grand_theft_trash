@@ -1,0 +1,1 @@
+instance_create_layer(x, y, "Trash_Layer", afval_medium);
