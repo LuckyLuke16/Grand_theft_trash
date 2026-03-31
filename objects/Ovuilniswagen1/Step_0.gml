@@ -20,12 +20,32 @@ speed = clamp(speed, backwardspd, forwardspd);
 image_angle = direction;
 
 // --- 3. AFVAL PAKKEN ---
-var afval = instance_nearest(x, y, afval_high);
+var afval_h = instance_nearest(x, y, afval_high);
 
 // We checken of afval bestaat en of we dichtbij zijn
-if (afval != noone && point_distance(x, y, afval.x, afval.y) < 60) {
+if (afval_h != noone && point_distance(x, y, afval_h.x, afval_h.y) < 60) {
     if (actie_toets && zakken_in_wagen < max_capaciteit) {
-        instance_destroy(afval);
+        instance_destroy(afval_h);
+        zakken_in_wagen += 1;
+        show_debug_message("Wagen 2 pakte afval! Totaal: " + string(zakken_in_wagen));
+    }
+}
+var afval_med = instance_nearest(x, y, afval_medium);
+
+// We checken of afval bestaat en of we dichtbij zijn
+if (afval_med != noone && point_distance(x, y, afval_med.x, afval_med.y) < 60) {
+    if (actie_toets && zakken_in_wagen < max_capaciteit) {
+        instance_destroy(afval_med);
+        zakken_in_wagen += 2;
+        show_debug_message("Wagen 2 pakte afval! Totaal: " + string(zakken_in_wagen));
+    }
+}
+var afval_l = instance_nearest(x, y, afval_low);
+
+// We checken of afval bestaat en of we dichtbij zijn
+if (afval_l != noone && point_distance(x, y, afval_l.x, afval_l.y) < 60) {
+    if (actie_toets && zakken_in_wagen < max_capaciteit) {
+        instance_destroy(afval_l);
         zakken_in_wagen += 1;
         show_debug_message("Wagen 2 pakte afval! Totaal: " + string(zakken_in_wagen));
     }

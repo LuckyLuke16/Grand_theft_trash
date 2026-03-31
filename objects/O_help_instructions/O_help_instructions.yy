@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"oAchtergrond",
+  "%Name":"O_help_instructions",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oAchtergrond",
+  "name":"O_help_instructions",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"button",
+    "path":"folders/Objects/button.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sachgt",
-    "path":"sprites/Sachgt/Sachgt.yy",
+    "name":"SInstructions",
+    "path":"sprites/SInstructions/SInstructions.yy",
   },
   "spriteMaskId":null,
   "visible":true,
