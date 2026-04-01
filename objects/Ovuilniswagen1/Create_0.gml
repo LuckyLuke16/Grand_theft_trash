@@ -1,7 +1,7 @@
 // Beweging instellingen (pas deze getallen aan naar wens)
 acc = 0.2;
 turnradius = 0.5;
-forwardspd = 2;
+forwardspd = 1.5;
 backwardspd = -0.4;
 
 // Cargo instellingen
