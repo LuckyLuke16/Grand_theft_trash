@@ -19,7 +19,7 @@ var afval_h = instance_nearest(x, y, afval_high);
 if (afval_h != noone && point_distance(x, y, afval_h.x, afval_h.y) < 60) {
     if (shift && zakken_in_wagen < max_capaciteit) {
         instance_destroy(afval_h);
-        zakken_in_wagen += 3;
+        zakken_in_wagen += 1;
     }
 }
 
@@ -27,7 +27,7 @@ var afval_l = instance_nearest(x, y, afval_low);
 if (afval_l != noone && point_distance(x, y, afval_l.x, afval_l.y) < 60) {
     if (shift && zakken_in_wagen < max_capaciteit) {
         instance_destroy(afval_l);
-        zakken_in_wagen += 1;
+        zakken_in_wagen += 3;
     }
 }
 
@@ -35,7 +35,7 @@ var afval_med = instance_nearest(x, y, afval_medium);
 if (afval_med!= noone && point_distance(x, y, afval_med.x, afval_med.y) < 60) {
     if (shift && zakken_in_wagen < max_capaciteit) {
         instance_destroy(afval_med);
-        zakken_in_wagen += 3;
+        zakken_in_wagen += 2;
     }
 }
 

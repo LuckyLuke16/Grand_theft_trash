@@ -1,5 +1,5 @@
 //spawn_kans
-spawn_change = 0.2;
+spawn_change = 0.9;
 
 //object om te spawnen
 
