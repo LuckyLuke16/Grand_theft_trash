@@ -28,7 +28,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.4.222",
+    "IDEVersion":"2024.14.4.221",
   },
   "name":"GTT",
   "resources":[
@@ -57,6 +57,7 @@
     {"id":{"name":"ocontrols","path":"objects/ocontrols/ocontrols.yy",},},
     {"id":{"name":"OIndustiriterein","path":"objects/OIndustiriterein/OIndustiriterein.yy",},},
     {"id":{"name":"Okruising","path":"objects/Okruising/Okruising.yy",},},
+    {"id":{"name":"Ologo","path":"objects/Ologo/Ologo.yy",},},
     {"id":{"name":"Orecycler","path":"objects/Orecycler/Orecycler.yy",},},
     {"id":{"name":"Oscore","path":"objects/Oscore/Oscore.yy",},},
     {"id":{"name":"Ospawn_high","path":"objects/Ospawn_high/Ospawn_high.yy",},},
@@ -83,6 +84,7 @@
     {"id":{"name":"Sindustrit","path":"sprites/Sindustrit/Sindustrit.yy",},},
     {"id":{"name":"SInstructions","path":"sprites/SInstructions/SInstructions.yy",},},
     {"id":{"name":"Skruising","path":"sprites/Skruising/Skruising.yy",},},
+    {"id":{"name":"Slogo","path":"sprites/Slogo/Slogo.yy",},},
     {"id":{"name":"SRecycler","path":"sprites/SRecycler/SRecycler.yy",},},
     {"id":{"name":"Stempcollision","path":"sprites/Stempcollision/Stempcollision.yy",},},
     {"id":{"name":"Svuilniswagen1","path":"sprites/Svuilniswagen1/Svuilniswagen1.yy",},},

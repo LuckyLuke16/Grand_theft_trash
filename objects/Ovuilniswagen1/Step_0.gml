@@ -46,7 +46,7 @@ var afval_l = instance_nearest(x, y, afval_low);
 if (afval_l != noone && point_distance(x, y, afval_l.x, afval_l.y) < 60) {
     if (actie_toets && zakken_in_wagen < max_capaciteit) {
         instance_destroy(afval_l);
-        zakken_in_wagen += 1;
+        zakken_in_wagen += 3;
         show_debug_message("Wagen 2 pakte afval! Totaal: " + string(zakken_in_wagen));
     }
 }
