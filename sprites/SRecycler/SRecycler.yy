@@ -1,7 +1,7 @@
 {
   "$GMSprite":"v2",
   "%Name":"SRecycler",
-  "bboxMode":2,
+  "bboxMode":0,
   "bbox_bottom":91,
   "bbox_left":0,
   "bbox_right":97,

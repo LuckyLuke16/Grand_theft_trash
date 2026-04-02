@@ -1,5 +1,5 @@
-var box_width = 500;
-var box_height = 166;
+var box_width = 120;
+var box_height = 40;
 
 // Midden van het scherm
 var mid_x = display_get_gui_width() / 2;
