@@ -11,8 +11,8 @@
   "name":"time",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"tijd",
+    "path":"folders/Objects/tijd.yy",
   },
   "parentObjectId":null,
   "persistent":false,

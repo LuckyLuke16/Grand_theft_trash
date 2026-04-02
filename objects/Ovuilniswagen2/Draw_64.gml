@@ -1,6 +1,6 @@
 
 draw_set_color(c_yellow);
-draw_set_font(Font_game);
+draw_set_font(font_menu);
 
 // 2. Teken de totale score
 draw_text(3125, 100, "SCORE: " + string(punten_totaal));

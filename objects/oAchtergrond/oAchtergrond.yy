@@ -8,8 +8,8 @@
   "name":"oAchtergrond",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"background",
+    "path":"folders/Objects/background.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sachgt",
-    "path":"sprites/Sachgt/Sachgt.yy",
+    "name":"Sacht_beter",
+    "path":"sprites/Sacht_beter/Sacht_beter.yy",
   },
   "spriteMaskId":null,
   "visible":true,
