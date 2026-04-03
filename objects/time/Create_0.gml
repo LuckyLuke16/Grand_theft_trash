@@ -1,2 +1,2 @@
-global.timer = room_speed * 40;
+global.timer = room_speed * 180;
 game_over  = false;

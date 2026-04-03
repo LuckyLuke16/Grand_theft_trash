@@ -47,6 +47,7 @@
     {"id":{"name":"Dialoog","path":"objects/Dialoog/Dialoog.yy",},},
     {"id":{"name":"O_endscreentext","path":"objects/O_endscreentext/O_endscreentext.yy",},},
     {"id":{"name":"O_help_instructions","path":"objects/O_help_instructions/O_help_instructions.yy",},},
+    {"id":{"name":"O_minimap","path":"objects/O_minimap/O_minimap.yy",},},
     {"id":{"name":"oAchtergrond","path":"objects/oAchtergrond/oAchtergrond.yy",},},
     {"id":{"name":"Obochtlinksbeneden","path":"objects/Obochtlinksbeneden/Obochtlinksbeneden.yy",},},
     {"id":{"name":"Obochtlinksboven","path":"objects/Obochtlinksboven/Obochtlinksboven.yy",},},
