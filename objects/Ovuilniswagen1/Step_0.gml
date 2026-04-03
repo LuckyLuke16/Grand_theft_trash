@@ -74,3 +74,11 @@ if (recycler != noone && point_distance(x, y, recycler.x, recycler.y) < 100) {
         show_debug_message("Succesvol ingeleverd! Punten erbij: " + string(extra_punten));
     }
 }
+
+if (knockback_timer > 0) {
+    x -= lengthdir_x(3, direction);
+    y -= lengthdir_y(3, direction);
+    knockback_timer--;
+} else {
+    // your normal W / arrow up movement code here
+}

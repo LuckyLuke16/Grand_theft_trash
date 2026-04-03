@@ -10,3 +10,5 @@ max_capaciteit = 10;
 
 // De score is globaal (geldt voor beide wagens)
 global.punten_totaal_wagen_blauw = 0;
+
+knockback_timer = 0;
