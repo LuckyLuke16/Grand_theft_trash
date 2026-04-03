@@ -3,7 +3,7 @@ draw_set_color(c_yellow);
 draw_set_font(font_menu);
 
 // 2. Teken de totale score
-draw_text(200, 100, "SCORE: " + string(punten_totaal));
+draw_text(200, 100, "SCORE: " + string(global.punten_totaal_wagen_groen));
 
 // 3. Teken de status van de wagen (optioneel, maar erg handig)
 draw_set_color(c_white);

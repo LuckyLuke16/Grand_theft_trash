@@ -6,7 +6,7 @@ spawn_object = afval_low;
 
 //time
 timer = 0;
-respawn_time = room_speed * 1.3;
+respawn_time = room_speed * 2;
 
 //check if item is weg
 spawned_instance = noone;

@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Safval_zak",
-    "path":"sprites/Safval_zak/Safval_zak.yy",
+    "name":"Safval_zak_high",
+    "path":"sprites/Safval_zak_high/Safval_zak_high.yy",
   },
   "spriteMaskId":null,
   "visible":true,

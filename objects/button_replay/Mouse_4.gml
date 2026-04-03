@@ -1,1 +1,1 @@
-game_restart();
+room_goto(R_game);

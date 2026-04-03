@@ -1,6 +1,6 @@
 {
   "$GMSprite":"v2",
-  "%Name":"Safval_zak",
+  "%Name":"Safval_zak_high",
   "bboxMode":0,
   "bbox_bottom":52,
   "bbox_left":15,
@@ -21,7 +21,7 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"45a9c478-e28c-4cc8-8e7d-11a42b32bb76","blendMode":0,"displayName":"default","isLocked":false,"name":"45a9c478-e28c-4cc8-8e7d-11a42b32bb76","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"Safval_zak",
+  "name":"Safval_zak_high",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"Safval_zak",
+    "%Name":"Safval_zak_high",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"Safval_zak",
+    "name":"Safval_zak_high",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,7 +69,7 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1b95f7e3-d205-442a-822e-005283ba47d1","path":"sprites/Safval_zak/Safval_zak.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1b95f7e3-d205-442a-822e-005283ba47d1","path":"sprites/Safval_zak_high/Safval_zak_high.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"6e09d6c6-333d-4376-9943-538450d44e68","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
