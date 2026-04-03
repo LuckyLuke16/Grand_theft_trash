@@ -66,7 +66,7 @@ if (recycler != noone && point_distance(x, y, recycler.x, recycler.y) < 100) {
         var extra_punten = zakken_in_wagen * 10;
         
         // 5. Toevoegen aan de EIGEN score van deze specifieke wagen
-        punten_totaal += extra_punten;
+        global.punten_totaal_wagen_groen += extra_punten;
         
         // 6. Wagen weer leegmaken
         zakken_in_wagen = 0;
