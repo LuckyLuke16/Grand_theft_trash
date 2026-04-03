@@ -27,7 +27,7 @@ if (afval_h != noone && point_distance(x, y, afval_h.x, afval_h.y) < 60) {
     if (actie_toets && zakken_in_wagen < max_capaciteit) {
         instance_destroy(afval_h);
         zakken_in_wagen += 3;
-        show_debug_message("Wagen 2 pakte afval! Totaal: " + string(zakken_in_wagen));
+        show_debug_message("Wagen 2 pakte afval! Totaal: " + string(zakken_in_wagen1));
     }
 }
 var afval_med = instance_nearest(x, y, afval_medium);
@@ -71,7 +71,7 @@ if (recycler != noone && point_distance(x, y, recycler.x, recycler.y) < 100) {
         // 6. Wagen weer leegmaken
         zakken_in_wagen = 0;
         
-        show_debug_message("Succesvol ingeleverd! Punten erbij: " + string(extra_punten));
+      
     }
 }
 

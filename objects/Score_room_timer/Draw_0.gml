@@ -10,3 +10,5 @@ draw_text(671, 255, "score blauwe truck");//score groene truck
 draw_text(671, 275, string(global.punten_totaal_wagen_blauw))
 draw_text(671, 385, "score groene truck");// score blauwe truck
 draw_text(671, 405,string(global.punten_totaal_wagen_groen))
+
+

@@ -45,6 +45,7 @@
     {"id":{"name":"afval_medium","path":"objects/afval_medium/afval_medium.yy",},},
     {"id":{"name":"button_replay","path":"objects/button_replay/button_replay.yy",},},
     {"id":{"name":"Dialoog","path":"objects/Dialoog/Dialoog.yy",},},
+    {"id":{"name":"O_endscreentext","path":"objects/O_endscreentext/O_endscreentext.yy",},},
     {"id":{"name":"O_help_instructions","path":"objects/O_help_instructions/O_help_instructions.yy",},},
     {"id":{"name":"oAchtergrond","path":"objects/oAchtergrond/oAchtergrond.yy",},},
     {"id":{"name":"Obochtlinksbeneden","path":"objects/Obochtlinksbeneden/Obochtlinksbeneden.yy",},},
@@ -86,6 +87,7 @@
     {"id":{"name":"R_game_intro","path":"rooms/R_game_intro/R_game_intro.yy",},},
     {"id":{"name":"R_game_over","path":"rooms/R_game_over/R_game_over.yy",},},
     {"id":{"name":"R_game","path":"rooms/R_game/R_game.yy",},},
+    {"id":{"name":"R_gameover","path":"rooms/R_gameover/R_gameover.yy",},},
     {"id":{"name":"R_menu","path":"rooms/R_menu/R_menu.yy",},},
     {"id":{"name":"R_score","path":"rooms/R_score/R_score.yy",},},
     {"id":{"name":"Sachgt","path":"sprites/Sachgt/Sachgt.yy",},},
@@ -124,6 +126,7 @@
     {"roomId":{"name":"R_game_help","path":"rooms/R_game_help/R_game_help.yy",},},
     {"roomId":{"name":"R_game_intro","path":"rooms/R_game_intro/R_game_intro.yy",},},
     {"roomId":{"name":"R_score","path":"rooms/R_score/R_score.yy",},},
+    {"roomId":{"name":"R_gameover","path":"rooms/R_gameover/R_gameover.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
